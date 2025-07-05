@@ -1,0 +1,38 @@
+TO create a environment = python -m venv env
+## to activate it = env/bin/activate
+## to deactivate it = deactivate
+
+Flask uses Jinja (also called as Jinja2), its an powerful template engine which is specially made for python,
+It allows you to create dynamic content by embedding special placeholders and logic within a template file
+
+@app.route("/") = to tell whhihc liknk should the application access
+render_template() =- opens this specific html page, whihc we mention  in this render template method, when the flask runs
+
+ template inheritance
+
+ data base create
+ data base congifure
+ my class -> means create database structure and columns
+thn create_all() to create our db folders
+
+
+ dunder method = to show my tables content
+
+thn 2 things in home page (imported reuquest and redirect as well)
+either add tasks (or) 
+show all tasks 
+
+
+next, we have to show al tese in html page right, so we did jinga
+for loop in table and 
+added 2 buttons as well to delte or update the tasks
+
+thn logic to delete the tasks
+
+thn logic to update the tasks
+
+thn we will creatae a new page where user will change the tasks
+
+thn link the new page to base.html using jinja 
+
+thn add css to ur application
